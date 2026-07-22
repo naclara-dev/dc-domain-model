@@ -6,8 +6,11 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 public class Planet {
     private int id;
     private String name;
+
+    public Planet(String name) {
+        this.name = name;
+    }
 }
