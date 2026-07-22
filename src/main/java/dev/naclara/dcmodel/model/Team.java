@@ -1,4 +1,4 @@
-package dev.naclara.dcmodel;
+package dev.naclara.dcmodel.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
